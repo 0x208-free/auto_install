@@ -953,7 +953,7 @@ ENV_TOOL_LIST = ['gcc-4.8.5-44.el7.x86_64', 'wget-1.14-18.el7_6.1.x86_64', 'auto
 
 
 if __name__ == '__main__':
-    # init()
+    init()
     fm=FUNC_MAP(FUNC_MAP_LIST)
     fm.execute()
 
